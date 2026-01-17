@@ -1,1 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Aulas | Quartel de Estudos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <style>
+    :root{
+      --bg:#0b0f14;
+      --panel:#111826;
+      --panel2:#0f1724;
+      --text:#e6edf3;
+      --muted:#9fb0c0;
+      --accent:#5dd6ff;
+      --line:#233044;
+    }
+
+    *{box-sizing:border-box}
+
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      background: linear-gradient(180deg,#070a0f,#0b0f14);
+      color:var(--text);
+    }
+
+    header{
+      background:var(--panel);
+      border-bottom:1px solid var(--line);
+      padding:18px;
+    }
+
+    header h1{
+      margin:0;
+      font-size:20px;
+    }
+
+    header p{
+      margin:6px 0 0;
+      color:var(--muted);
+      font-size:13px;
+    }
+
+    .container{
+      max-width:1000px;
+      margin:auto;
+      padding:20px;
+    }
+
+    .card{
+      background:var(--panel2);
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:18px;
+      margin-bottom:20px;
+    }
+
+    .card h2{
+      margin:0 0 12px;
+      font-size:17px;
+      color:var(--accent);
+    }
+
+    .lesson{
+      background:#0b1220;
+      border:1px solid var(--line);
+      border-radius:12px;
+      padding:14px;
+      margin-bottom:12px;
+    }
+
+    .lesson b{
+      font-size:14px;
+    }
+
+    .lesson p{
+      margin:6px 0 0;
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:10px;
+      padding:8px 12px;
+      border-radius:10px;
+      border:1px solid var(--line);
+      background:#12203a;
+      color:var(--text);
+      text-decoration:none;
+      font-weight:600;
+      font-size:12px;
+    }
+
+    .btn:hover{
+      background:#1a2d52;
+    }
+
+    footer{
+      text-align:center;
+      color:var(--muted);
+      font-size:12px;
+      padding:20px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>📘 Aulas do Ano</h1>
+  <p>8º ano • Escola + Base para a prova da Marinha</p>
+</header>
+
+<div class="container">
+
+  <!-- MATEMÁTICA -->
+  <div class="card">
+    <h2>📐 Matemática</h2>
+
+    <div class="lesson">
+      <b>1. Operações básicas e revisão</b>
+      <p>Adição, subtração, multiplicação e divisão sem erro.</p>
+      <a class="btn" href="aula.html?materia=matematica&aula=operacoes">
+        Abrir tutor desta aula
+      </a>
+    </div>
+
+    <div class="lesson">
+      <b>2. Frações (do zero)</b>
+      <p>O que é fração, simplificação e comparação.</p>
+      <a class="btn" href="aula.html?materia=matematica&aula=fracoes">
+        Abrir tutor desta aula
+      </a>
+    </div>
+
+    <div class="lesson">
+      <b>3. Razão e proporção</b>
+      <p>Base para provas e problemas de lógica.</p>
+      <a class="btn" href="aula.html?materia=matematica&aula=proporcao">
+        Abrir tutor desta aula
+      </a>
+    </div>
+  </div>
+
+  <!-- PORTUGUÊS -->
+  <div class="card">
+    <h2>📖 Português</h2>
+
+    <div class="lesson">
+      <b>1. Interpretação de texto</b>
+      <p>Entender o que o texto pede, sem chute.</p>
+      <a class="btn" href="aula.html?materia=portugues&aula=interpretacao">
+        Abrir tutor desta aula
+      </a>
+    </div>
+
+    <div class="lesson">
+      <b>2. Classes de palavras</b>
+      <p>Substantivo, verbo, adjetivo e uso correto.</p>
+      <a class="btn" href="aula.html?materia=portugues&aula=classes">
+        Abrir tutor desta aula
+      </a>
+    </div>
+  </div>
+
+  <!-- CIÊNCIAS -->
+  <div class="card">
+    <h2>🔬 Ciências</h2>
+
+    <div class="lesson">
+      <b>1. Corpo humano (base)</b>
+      <p>Sistemas e funções principais.</p>
+      <a class="btn" href="aula.html?materia=ciencias&aula=corpo">
+        Abrir tutor desta aula
+      </a>
+    </div>
+  </div>
+
+  <!-- HISTÓRIA -->
+  <div class="card">
+    <h2>🏛️ História</h2>
+
+    <div class="lesson">
+      <b>1. Brasil Império (introdução)</b>
+      <p>Base histórica comum em provas.</p>
+      <a class="btn" href="aula.html?materia=historia&aula=imperio">
+        Abrir tutor desta aula
+      </a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  Quartel de Estudos • Aulas organizadas • 2026
+</footer>
+
+</body>
+</html>
